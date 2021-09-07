@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+body{
+	margin: 0;
+	font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+#menu{
+	text-align: left;
+	color: white;
+	background-color: #44085c;
+	width: 12%;
+	border-radius: 15px;
+	padding: 10px;
+	padding-left: 25px;
+	height: 100%;
+	position: fixed;
+}
+#menu a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	margin: 7px;
+	margin-left: 15px;
+
+}
+#menu a:hover{
+	background-color: violet;
+	color: black;
+}
+#interior_design{
+	margin-left: 20%;
+	padding: 50px;
+}
+#interior_design h1{
+	margin: 0;
+	font-size: 40px;
+}
+#interior_design h2{
+	color: #44085c;
+	font-size: 30px;
+}
+#interior_design hr{
+	border-color: #44085c;
+	border-width: 5px;
+	background-color: #44085c;
+	border-radius: 5px;
+}
+#showcase img{
+	width: 45%;
+	margin: 10px;
+	border-radius: 10px;
+	opacity: 70%;
+	display: inline-block;
+
+}
+#designers .choose{
+	font-weight: bold;
+}
+#designers .team{
+	width: 31%;
+	display: inline-block;
+	margin: 0 8px;
+}
+.team img{
+	width: 100%;
+	border-radius: 10px;
+	filter: grayscale(0.4);
+}
+.job{
+	opacity: 0.7;
+}
+.team div{
+	background-color: #f1f1f1;
+	border-radius: 5px;
+	padding: 10px;
+}
+ul{
+	display: inline-block;
+	color: black;
+	list-style-type: none;
+	vertical-align: middle;
+	background-color: #f1f1f1;
+	padding: 0;
+	margin: 0 20px;
+}
+li{
+	border-bottom-style: solid;
+	border-color: lightgrey;
+	background-color: #f1f1f1;
+	width: 455px;
+	padding: 15px 0;
+	border-width: 1px;
+	text-align: center;
+	border-radius: 7px;
+}
+.li1{
+	background-color: #44085c;
+	color: white;
+	padding: 25px 0;
+	font-size: 25px;
+}
+.li2{
+	background-color: #f1453d;
+	color: white;
+	padding:  25px 0;
+	font-size: 25px;
+}
+.lip1{
+	font-size: 25px;
+	font-weight: bold;
+}
+.lip2{
+	font-size: 25px;
+	font-weight: bold; 
+}
+.button1{
+	background-color: white;
+	color: #44085c;
+	text-align: center;
+	padding: 10px 13px;
+	border-radius: 15px;
+	border-style: none;
+}
+.button2{
+	background-color: #f1453d;
+	color: white;
+	text-align: center;
+	padding: 10px 13px;
+	border-radius: 15px;
+	border-style: none;
+}
+input{
+	display: block;
+	width: 100%;
+	padding: 8px 0;
+	margin-bottom: 10px;
+}
+input[type=submit]{
+	background-color: #44085c;
+	color: white;
+	border-style: none;
+	border-radius: 10px;
+}
+input[type=submit]:hover{
+	background-color: white;
+	color: #44085c;
+}
+.button1:hover{
+	background-color: #44085c;
+	color: white;
+}
+.button2:hover{
+	background-color: white;
+	color: #f1453d;
+}
+#hover{
+	text-align: right;
+	background-color: #f1f1f1;
+	padding: 25px;
+}
